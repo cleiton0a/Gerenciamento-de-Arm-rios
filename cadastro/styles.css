@@ -9,30 +9,29 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    box-sizing: border-box; /* Adicionando box-sizing */
-    border: 1px solid #ccc; /* Adicionando uma borda padrão */
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
   }
   
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="password"]:focus {
-    outline: none; /* Removendo o contorno padrão ao focar */
-    box-shadow: 0 0 5px #6adad6; /* Adicionando um sombreamento ao focar */
+    outline: none; 
+    box-shadow: 0 0 5px #6adad6; 
   }
   
   button[type="submit"] {
     width: 100%;
     padding: 10px;
-    box-sizing: border-box; /* Adicionando box-sizing */
-    background-color: #4CAF50; /* Adicionando cor de fundo */
-    color: white; /* Adicionando cor do texto */
-    border: none; /* Removendo a borda */
-    cursor: pointer; /* Mudando o cursor ao passar por cima */
+    box-sizing: border-box;  
+    background-color: #4CAF50; 
+    color: white;  
+    border: none; 
+    cursor: pointer;
   }
   
   button[type="submit"]:hover {
-    background-color: #45a049; /* Mudando a cor de fundo ao passar por cima */
-  }
+    background-color: #45a049; 
   img {
     max-width: 90%;
     display: block;
