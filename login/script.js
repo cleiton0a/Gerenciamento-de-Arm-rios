@@ -29,7 +29,7 @@ async function authenticate(username, password) {
       return false;
     }
 
-    const responseJson = await response.json(); // Move this line up
+    const responseJson = await response.json(); 
     const authToken = responseJson.token;
 
     localStorage.setItem(authTokenKey, authToken);
