@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
-        const password = document.getElementById('password').value;
-
-        // Pode adicionar aqui a lógica real para enviar dados para o servidor
+        const password = document.getElementById('password').
         alert(`Nome: ${name}\nE-mail: ${email}\nSenha: ${password}`);
     });
 });
